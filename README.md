@@ -1,4 +1,4 @@
-## Module20 Challenge
+## Module 20 Challenge
 Submission for Bryan Tran Lu. 
 
 ## Instructions

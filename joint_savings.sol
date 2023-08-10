@@ -1,7 +1,6 @@
 /*
 Joint Savings Account
 ---------------------
-
 To automate the creation of joint savings accounts, you will create a solidity smart contract that accepts two user addresses that are then able to control a joint savings account. Your smart contract will use ether management functions to implement various requirements from the financial institution to provide the features of the joint savings account.
 
 The Starting file provided for this challenge contains a `pragma` for solidity version `5.0.0`.
@@ -10,9 +9,7 @@ You will do the following:
 1. Create and work within a local blockchain development environment using the JavaScript VM provided by the Remix IDE.
 2. Script and deploy a **JointSavings** smart contract.
 3. Interact with your deployed smart contract to transfer and withdraw funds.
-
 */
-
 pragma solidity ^0.5.0;
 // Define a new contract named `JointSavings`
 contract JointSavings {
@@ -38,13 +35,10 @@ contract JointSavings {
         Define a `require` statement that checks if the `recipient` is equal to either `accountOne` or `accountTwo`. The `requiere` statement returns the text `"You don't own this account!"` if it does not.
         */
         require (recipient == accountOne || recipient == accountTwo, "You don't own this account!");
-
-
         /*
         Define a `require` statement that checks if the `balance` is sufficient to accomplish the withdraw operation. If there are insufficient funds, the text `Insufficient funds!` is returned.
         */
         require (amount <= contractBalance, "Insufficient funds!");
-
         /*
         Add an `if` statement to check if the `lastToWithdraw` is not equal to (`!=`) to `recipient`. If `lastToWithdraw` is not equal, then set it to the current value of `recipient`.
         */
@@ -80,3 +74,6 @@ contract JointSavings {
     */
     function() external payable {}
 }
+
+// Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb
+// Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0

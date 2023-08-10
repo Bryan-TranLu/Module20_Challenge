@@ -8,7 +8,7 @@ The Solidity file is in `joint_savings.sol`.
 
 2) Compile and deploy the contract. Use Solidity compiler version 0.5.0
 
-3) Interact with the deployed smart contract. Use the following dummy account addresses:
+3) Interact with the deployed smart contract. Deposit at least 16 Ether and use the following dummy account addresses:
 
 `Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb`
 

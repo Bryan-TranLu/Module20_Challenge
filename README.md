@@ -16,11 +16,27 @@ Imports for Crypto Wallet functions:
 ## Images
 To receive all points, you must:
 
-**Use the setAccounts function as requested. Capture a screenshot of the execution, and share it in your final submission. (10 points)
+1) Use the setAccounts function as requested. Capture a screenshot of the execution, and share it in your final submission. (10 points)
 
-**Test the deposit function. After each of the three transactions, capture a screenshot of the execution, and share it in your final submission. (10 points)
+<a href="" target="_blank" rel="noreferrer"><img src="Images/SetAccounts.png" width="" height="300" alt="" /></a>
 
-**Test the withdrawal functionality of the smart contract. Capture a screenshot of the two executions, and share them in your final submission. Additionally, capture screenshots of the terminal output from the lastToWithdraw and lastWithdrawAmount functions. (10 points)
+2) Test the deposit function. After each of the three transactions, capture a screenshot of the execution, and share it in your final submission. (10 points)
+
+*Transaction 1: Send 1 ether as wei.
+
+<a href="" target="_blank" rel="noreferrer"><img src="Images/Send_1_eth.png" width="" height="300" alt="" /></a>
+
+*Transaction 2: Send 10 ether as wei.
+
+<a href="" target="_blank" rel="noreferrer"><img src="Images/Send_10_eth.png" width="" height="300" alt="" /></a>
+
+*Transaction 3: Send 5 ether.
+
+<a href="" target="_blank" rel="noreferrer"><img src="Images/Send_5_eth.png" width="" height="300" alt="" /></a>
+
+3) Test the withdrawal functionality of the smart contract. Capture a screenshot of the two executions, and share them in your final submission. Additionally, capture screenshots of the terminal output from the lastToWithdraw and lastWithdrawAmount functions. (10 points)
+
+<a href="" target="_blank" rel="noreferrer"><img src="Images/LastToWithdraw" width="" height="300" alt="" /></a>
 
 ## Authors and Support
 If there are any questions regarding the assignment, please reach out via email.

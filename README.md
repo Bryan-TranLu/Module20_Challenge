@@ -2,16 +2,17 @@
 Submission for Bryan Tran Lu. 
 
 ## Instructions
-The solidity script is in `joint_savings.sol`.
+The Solidity file is in `joint_savings.sol`.
 
-1) To launch the Streamlit application, type `streamlit run fintech_finder.py`
+1) Open the Solidity file in the Remix IDE.
 
-2) On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Then, enter the number of hours that you would like to hire them for.
+2) Compile and deploy the contract. Use Solidity compiler version 0.5.0
 
-3) Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully communicated to Ganache, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
+3) Interact with the deployed smart contract. Use the following dummy account addresses:
 
-## Installation Requirements
-Imports for Crypto Wallet functions:
+`Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb`
+
+`Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0`
 
 ## Images
 To receive all points, you must:
@@ -36,7 +37,7 @@ To receive all points, you must:
 
 3) Test the withdrawal functionality of the smart contract. Capture a screenshot of the two executions, and share them in your final submission. Additionally, capture screenshots of the terminal output from the lastToWithdraw and lastWithdrawAmount functions. (10 points)
 
-<a href="" target="_blank" rel="noreferrer"><img src="Images/LastToWithdraw" width="" height="300" alt="" /></a>
+<a href="" target="_blank" rel="noreferrer"><img src="Images/LastToWithdraw.png" width="" height="300" alt="" /></a>
 
 ## Authors and Support
 If there are any questions regarding the assignment, please reach out via email.

@@ -10,9 +10,9 @@ The Solidity file is in `joint_savings.sol`.
 
 3) Interact with the deployed smart contract. Deposit at least 16 Ether and use the following dummy account addresses:
 
-`Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb`
+Dummy account1 address: `0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb`
 
-`Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0`
+Dummy account2 address: `0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0`
 
 ## Images
 To receive all points, you must:
